@@ -1,0 +1,138 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    width: 448px;
+    height: 349px;
+    background: white;
+    border: 11px solid black;
+    border-radius: 49% 44%;
+    position: absolute;
+    left: 100px;
+    top: 168px;
+}
+.eye{
+    width: 130px;
+    height: 100px;
+    background: black;
+    position: absolute;
+}
+.eye-1{
+    left: 44px;
+    top: 143px;
+    border-radius: 70% 39%;
+}
+.eye-2{
+    right: 44px;
+    top: 143px;
+    border-radius: 39% 70%;
+}
+.hat{
+    right: 45px;
+    bottom: 173px;
+    position: relative;
+}
+.eye-blue{
+    width: 50px;
+    height: 50px;
+    background: #49c9f2;
+    border-radius: 50%;
+    position: relative;
+    left: 66px;
+    top: 12px;
+}
+.eye-light{
+    width: 20px;
+    height: 20px;
+    background: #bde6f5;
+    border-radius: 50%;
+    position: relative;
+    left: 38px;
+    bottom: 34px;
+}
+.left-blue{
+    left: 16px;
+    top: 11px;
+}
+.left-light{
+    left: 72px;
+    bottom: 35px;
+} 
+.heart{
+    position: absolute;
+    right: 83px;
+    top: 57px;
+}
+.mouth{
+    position: absolute;
+    bottom: 61px;
+    right: 186px;
+}
+.nouse{
+    width: 38px;
+    height: 21px;
+    background: black;
+    position: absolute;
+    bottom: 92px;
+    right: 196px;
+    border-radius: 50%;
+}
+.ear{
+    clear: both;
+    width: 81px;
+    height: 81px;
+    background: black;
+    position: absolute;
+    bottom: 258px;
+    right: 12px;
+    border-radius: 58% 45%;
+    z-index: -10;
+}
+.corpus{
+    width: 353px;
+    height: 204px;
+    background: white;
+    border: 11px solid black;
+    border-radius: 290px 220px 130px 80px;
+    position: absolute;
+    top: 441px;
+    left: 133px;
+    z-index: -20;
+}
+.hand{
+    width: 103px;
+    height: 82px;
+    background: black;
+    position: absolute;
+    left: 64px;
+    bottom: -22px;
+    border-radius: 50% 50% 56% 50%;
+    z-index: 20;
+
+}
+.hand-left{
+    left: 255px;
+    bottom: -24px;
+    border-radius: 50% 50% 50% 56%;
+}
+.leg-right{
+    width: 122px;
+    height: 115px;
+    background: black;
+    position: absolute;
+    left: -53px;
+    bottom: -39px;
+    border-radius: 50% 90% 40% 80%;
+}
+.leg-left{
+    width: 141px;
+    height: 105px;
+    background: black;
+    position: absolute;
+    left: 235px;
+    top: 112px;
+    border-radius: 90% 50% 85% 40%;
+}
+
